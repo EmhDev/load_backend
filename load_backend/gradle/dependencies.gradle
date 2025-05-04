@@ -1,0 +1,9 @@
+ext
+        {
+            springBootVer = '3.4.4'
+            lombokVer= '1.18.38'
+            swaggerVer = '3.0.0'
+            springMailVer = '3.4.5'
+            validationVer = '3.1.0' // jakarta
+            springDepMgntVer = '1.1.4'
+        }

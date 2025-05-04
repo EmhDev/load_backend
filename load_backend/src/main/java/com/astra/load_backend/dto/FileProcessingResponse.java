@@ -1,0 +1,16 @@
+package com.astra.load_backend.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class FileProcessingResponse {
+    private String originalFileName;
+    private int totalParts;
+    private List<SegmentResponse> segments;
+}
